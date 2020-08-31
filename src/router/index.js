@@ -7,5 +7,6 @@ export default new Router({
   routes: [
     { path: '/',component: () => _import('components/HelloWorld')},
     { path: '/home',component: () => _import('components/HelloWorld')},
+    { path: '/test',component: () => _import('components/Test')},
   ]
 })

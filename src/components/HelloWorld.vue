@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <img alt="Vue logo" class="logo" src="../assets/logo.png">
+    <h1 @click="$router.push('/test')"> go test </h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
+      hello vue
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
   </div>
@@ -39,5 +39,13 @@ li {
 }
 a {
   color: #42b983;
+}
+p {
+  font-size: 20px;
+}
+
+img{
+  width: 250px;
+  height: 250px;
 }
 </style>

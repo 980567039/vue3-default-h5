@@ -35,6 +35,7 @@ yarn run build
 ### 项目依赖说明
 - [x] sass 预处理器
 - [x] postcss-px2rem 移动端适配插件
+- [x] normalize.css 去除浏览器默认样式的差异
 - [x] vuex-persistedstate vuex状态持久化插件
 - [x] axios http请求库
 - [x] cross-env 修改build:test的环境变量

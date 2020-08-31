@@ -3,6 +3,7 @@ import App from './App.vue'
 import 'lib-flexible'
 import store from './store'
 import router from './router'
+import 'normalize.css'
 
 Vue.config.productionTip = false
 
